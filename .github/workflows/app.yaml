@@ -4,7 +4,9 @@ jobs:
  test_job:
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v2
             - name: test_job
+              shell: bash
               run: | 
                 ls
-                cat 
+                cat
