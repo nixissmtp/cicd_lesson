@@ -1,7 +1,5 @@
 name: Lesson for CI
-on: 
-    - push
-    - pull_request
+on: [push, pull_request]
 jobs:
     test_job:
         runs-on: ubuntu-latest
