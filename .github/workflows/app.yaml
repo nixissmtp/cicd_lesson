@@ -5,4 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         stages:
             - name: test_job
-            run: ls
+              run: | 
+                ls
