@@ -5,8 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: test_job
-              shell: bash
-              run: | 
-                ls
-                cat
+            - name: pylint
+              run: echo "Run pylint"
+            - name: test
+              run: echo "Test"
